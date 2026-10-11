@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Rialito — Presentación del proyecto
 
-## Getting Started
+Sitio de presentación de **Rialito**, una app de finanzas personales hecha para la realidad venezolana: ahorro en bolívares y dólares, tasas BCV / Euro / Binance en vivo, metas, gastos, autopréstamos, inversiones y comparación de precios entre comercios.
 
-First, run the development server:
+🌐 **En vivo:** https://rialito.webtrader.trade
+🖥️ **Probar la app en la web:** https://rialito.webtrader.trade/app/
+📄 **Vista general del proyecto:** [Rialito-showcase](https://github.com/Bra117/Rialito-showcase)
+
+> El código fuente de la app y del backend es privado. Este repositorio contiene solo la página de presentación.
+
+## Qué muestra
+
+- Las funciones principales de la app, con tarjetas interactivas.
+- Un conversor de divisas de ejemplo y un gráfico de gastos por categoría.
+- Las tecnologías con las que está construida (Flutter, Dart, Provider, Workmanager…).
+- Español / inglés con un botón.
+
+## Tecnologías del sitio
+
+- [Next.js](https://nextjs.org) 16 (App Router) con exportación estática (`output: "export"`)
+- React 19 + TypeScript
+- Framer Motion para las animaciones
+
+## Desarrollo
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev      # http://localhost:3000
+npm run build    # genera el sitio estático en out/
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Los textos (ES/EN) están en `lib/translations.ts`; los componentes, en `components/`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Publicación
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+`npm run build` genera `out/`, que se copia a la raíz del dominio. La app web de Rialito vive aparte, en `/app/`, y no se toca al publicar este sitio.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Desarrollado por **Airan Bracamonte** · [LinkedIn](https://www.linkedin.com/in/airan-bracamonte)
