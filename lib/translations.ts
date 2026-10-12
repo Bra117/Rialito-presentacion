@@ -72,7 +72,7 @@ export const translations = {
         {
           icon: "🏪",
           title: "Comercios y Precios",
-          desc: "Registra tus sucursales con sus productos y precios. Al comprar solo tocas el producto; si el precio cambió lo actualizas y ves cuánto subió en %. Compara sucursales y descubre dónde sale más barato.",
+          desc: "Registra tus sucursales con sus productos y precios. Al comprar solo tocas el producto; si el precio cambió lo actualizas y ves cuánto subió en %. Compara sucursales y descubre dónde sale más barato, incluso por kg cuando las bandejas no pesan igual.",
         },
         {
           icon: "🛒",
@@ -164,7 +164,7 @@ export const translations = {
         {
           icon: "🏪",
           title: "Stores & Prices",
-          desc: "Register your stores with their products and prices. When shopping, just tap the product; if the price changed, update it and see how much it rose in %. Compare stores and find where it's cheapest.",
+          desc: "Register your stores with their products and prices. When shopping, just tap the product; if the price changed, update it and see how much it rose in %. Compare stores and find where it's cheapest, even per kg when packs weigh differently.",
         },
         {
           icon: "🛒",
