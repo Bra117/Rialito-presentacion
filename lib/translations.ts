@@ -57,7 +57,7 @@ export const translations = {
         {
           icon: "📈",
           title: "Inversiones & ROI",
-          desc: "Registra activos y visualiza el rendimiento de tus inversiones frente al capital aportado.",
+          desc: "Registra activos y visualiza su rendimiento. Publica tus ganancias con una tarjeta premium que muestra el par, el % y tus precios, ocultando tus montos con ***.",
         },
         {
           icon: "💱",
@@ -149,7 +149,7 @@ export const translations = {
         {
           icon: "📈",
           title: "Investments & ROI",
-          desc: "Record assets and view your investment returns against the capital contributed.",
+          desc: "Record assets and track their returns. Share your gains with a premium card showing the pair, the % and your prices, with your amounts hidden as ***.",
         },
         {
           icon: "💱",
