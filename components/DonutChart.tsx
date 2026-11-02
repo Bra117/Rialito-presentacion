@@ -27,7 +27,7 @@ export default function DonutChart() {
     <Reveal className="donut-card">
       <div className="donut-wrap">
         <svg width="170" height="170" viewBox="0 0 170 170">
-          <circle cx="85" cy="85" r={R} fill="none" stroke="#1c2624" strokeWidth="20" />
+          <circle cx="85" cy="85" r={R} fill="none" stroke="#1d1d2a" strokeWidth="20" />
           {segments.map((s, i) => (
             <motion.circle
               key={s.label}
