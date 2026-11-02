@@ -32,10 +32,10 @@ export default function Hero() {
         </button>
       </div>
       <div className="hero-cta-row">
-        <button className="download-btn" disabled title={t.hero.downloadTitle}>
+        <a className="download-btn" href="/api/download/apk?from=presentacion" title={t.hero.downloadTitle}>
           {t.hero.downloadBtn}
           <span className="soon">{t.hero.soon}</span>
-        </button>
+        </a>
         <a className="try-web-btn" href="/app/" target="_blank" rel="noopener">
           {t.hero.tryWebBtn}
         </a>

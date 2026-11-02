@@ -122,9 +122,14 @@ header.nav {
   font-family: inherit;
   font-weight: 700;
   font-size: 15px;
-  cursor: not-allowed;
-  opacity: 0.55;
+  cursor: pointer;
+  text-decoration: none;
   position: relative;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.download-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px -10px rgba(0, 229, 255, 0.6);
 }
 .download-btn .soon {
   position: absolute;
