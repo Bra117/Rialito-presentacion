@@ -1,5 +1,6 @@
 "use client";
 
+import PlayStoreSoon from "./PlayStoreSoon";
 import { useLanguage, useT } from "@/lib/LanguageContext";
 
 export default function Hero() {
@@ -36,6 +37,7 @@ export default function Hero() {
           {t.hero.downloadBtn}
           <span className="soon">{t.hero.soon}</span>
         </a>
+        <PlayStoreSoon />
         <a className="try-web-btn" href="/app/" target="_blank" rel="noopener">
           {t.hero.tryWebBtn}
         </a>

@@ -13,6 +13,9 @@ export const translations = {
       soon: "ANDROID",
       downloadTitle: "Descarga directa (APK) mientras llega a la Play Store",
       tryWebBtn: "🖥️ Probar en la web",
+      storeSmall: "Disponible en",
+      storeSoon: "PRÓXIMAMENTE",
+      storeTitle: "Pronto estará publicada en Google Play",
       webPageBtn: "🌐 Página Web",
     },
     converter: {
@@ -114,6 +117,9 @@ export const translations = {
       soon: "ANDROID",
       downloadTitle: "Direct download (APK) until it reaches the Play Store",
       tryWebBtn: "🖥️ Try it on the web",
+      storeSmall: "Get it on",
+      storeSoon: "COMING SOON",
+      storeTitle: "Coming soon to Google Play",
       webPageBtn: "🌐 Website",
     },
     converter: {
