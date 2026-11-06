@@ -4,6 +4,7 @@ Sitio de presentación de **Rialito**, una app de finanzas personales hecha para
 
 🌐 **En vivo:** https://rialito.webtrader.trade
 🖥️ **Probar la app en la web:** https://rialito.webtrader.trade/app/
+👥 **Página para usuarios:** https://rialito-app.webtrader.trade
 📄 **Vista general del proyecto:** [Rialito-showcase](https://github.com/Bra117/Rialito-showcase)
 
 > El código fuente de la app y del backend es privado. Este repositorio contiene solo la página de presentación.
